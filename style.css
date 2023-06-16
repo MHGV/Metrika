@@ -1,16 +1,41 @@
 body {
   font-family: "Manrope", sans-serif;
 }
-
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
+}
 .container {
-  position: relative;
+  max-width: 1400px;
   margin: 0 auto;
-  width: 1400px;
   background-color: #ffffff;
-  padding: 125px;
+  padding: 0 125px;
 }
 
-.introduction {
+.container_black {
+  background-color: #121212;
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container_inline {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.introduction_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+}
+
+.introduction_image {
   position: relative;
   background-image: url(img_1.png);
   width: 1150px;
@@ -20,55 +45,35 @@ body {
 
 .introduction_text {
   position: absolute;
+  max-width: 430px;
   left: 40px;
   bottom: 40px;
-  width: 430px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 400px;
   font-style: 20px;
   line-height: 27px;
-}
-
-h1,
-h2,
-h3 {
   letter-spacing: -0.03em;
 }
 
-h1 {
-  text-align: left;
-  font-size: 60px;
-  line-height: 60px;
-  font-weight: 400;
-  width: 956px;
-}
-
-h2 {
-  font-style: 18px;
-  font-weight: 400px;
-  line-height: 25px;
-  text-align: left;
+.about_us_title {
   margin-top: 150px;
-}
-
-h3 {
-  line-height: 41px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 25px;
   color: #121212;
 }
 
-.studio {
+.about_us_text {
+  margin-top: 30px;
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
-  margin-top: 30px;
-  text-align: left;
+  color: #121212;
 }
 
-.btn {
+.about_us_btn {
   background-color: #ad1818;
   padding: 20px 40px;
   margin-top: 30px;
@@ -79,26 +84,37 @@ h3 {
   text-decoration: none;
 }
 
-.projects {
-  margin-top: 30px;
-}
-
-.projects .project {
-  margin-top: 90px;
-}
-.projects :first-child {
-  margin-top: 0;
+.projects_title {
+  margin-top: 150px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
 }
 
 .project_image {
-  margin-bottom: 15px;
+  width: 1150px;
+  height: 450px;
+  margin-top: 90px;
+}
+.image_margin_30 {
+  margin-top: 30px;
+}
+
+.project_title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #121212;
+  margin-top: 15px;
 }
 
 .project_link {
-  font-style: 20px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #ad1818;
   text-decoration: none;
   margin-top: 15px;
@@ -111,6 +127,7 @@ h3 {
   line-height: 153px;
   border: solid 1px;
   border-color: #ad1818;
+  border-radius: 5px;
   text-decoration: none;
   text-align: center;
   color: #ad1818;
@@ -118,41 +135,36 @@ h3 {
   letter-spacing: -0.03em;
   margin-top: 90px;
 }
+
 .all_projects:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
 
-.service {
+.services_title {
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  text-transform: uppercase;
   color: #ffffff;
-  padding-left: 127px;
-  margin-bottom: 34px;
-  margin-top: 150px;
 }
 
-.section_black {
-  position: absolute;
-  margin-top: 150px;
-  left: 0px;
-  width: 1400px;
-  background-color: #121212;
+.service_img {
+  width: 1150px;
+  height: 270px;
+  margin-top: 60px;
 }
 
-.section_black h3 {
-  color: #ffffff;
-  margin-bottom: 150px;
+.first_img {
+  margin-top: 34px;
+}
+
+.service_text {
+  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  padding-left: 128px;
-}
-
-.services_img {
-  width: 1150px;
-  height: 270px;
-  margin-left: 125px;
-  margin-bottom: 15px;
+  color: #ffffff;
+  margin-top: 15px;
 }
