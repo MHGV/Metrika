@@ -6,6 +6,15 @@ h2,
 h3 {
   letter-spacing: -0.03em;
 }
+
+h2 {
+  margin-top: 150px;
+  font-size: 18px;
+  font-family: Manrope;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -17,17 +26,13 @@ h3 {
   width: 1400px;
   margin: 0 auto;
   margin-top: 90px;
-  padding-top: 150px;
+  padding: 0 125px;
   padding-bottom: 150px;
+
   background-color: #121212;
 }
 
-.container_inline {
-  max-width: 1150px;
-  margin: 0 auto;
-}
-
-.introduction_title {
+.introduction__title {
   width: 956px;
   font-style: normal;
   font-weight: 400;
@@ -36,7 +41,7 @@ h3 {
   color: #121212;
 }
 
-.introduction_image {
+.introduction__image {
   position: relative;
   margin-top: 30px;
   width: 1150px;
@@ -44,7 +49,7 @@ h3 {
   background-image: url(img_1.png);
 }
 
-.introduction_text {
+.introduction__text {
   position: absolute;
   max-width: 430px;
   left: 40px;
@@ -57,24 +62,17 @@ h3 {
   color: #ffffff;
 }
 
-.about_us_title {
-  margin-top: 150px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #121212;
-}
-
-.about_us_text {
+.about-us__text {
   margin-top: 30px;
+  width: 1048px;
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
+  letter-spacing: -1.35px;
   color: #121212;
 }
 
-.about_us_btn {
+.about-us__btn {
   display: inline-block;
   margin-top: 30px;
   padding: 20px 40px;
@@ -85,25 +83,16 @@ h3 {
   color: #ffffff;
 }
 
-.project_info {
-  margin-top: 150px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #121212;
-}
-
-.project_image {
+.project__image {
   margin-top: 90px;
   width: 1150px;
   height: 450px;
 }
-.image_margin_30 {
+.project__image_margin-30 {
   margin-top: 30px;
 }
 
-.project_title {
+.project__title {
   margin-top: 15px;
   padding-bottom: 15px;
   font-style: normal;
@@ -113,7 +102,7 @@ h3 {
   color: #121212;
 }
 
-.project_link {
+.project__link {
   margin-top: 15px;
   font-weight: 400;
   line-height: 27px;
@@ -121,7 +110,7 @@ h3 {
   color: #ad1818;
 }
 
-.all_projects {
+.project__all-projects {
   display: block;
   width: 100%;
   margin-top: 90px;
@@ -137,35 +126,36 @@ h3 {
   border-color: #ad1818;
 }
 
-.all_projects:hover {
+.project__all-projects:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
 
-.services_title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.services_img {
+.services__img {
   margin-top: 60px;
   width: 1150px;
   height: 270px;
 }
 
-.first_img {
+.services__img_top {
   margin-top: 34px;
 }
 
-.services_text {
+.services__text {
   margin-top: 15px;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
+  color: #ffffff;
+}
+
+.services__title {
+  padding-top: 150px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
   color: #ffffff;
 }
