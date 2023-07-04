@@ -20,7 +20,7 @@ h1 {
   color: #121212;
 }
 
-h2 {
+.section-header {
   margin-bottom: 30px;
   padding-top: 150px;
   font-size: 18px;
@@ -31,6 +31,19 @@ h2 {
   letter-spacing: -0.54px;
   text-transform: uppercase;
   color: #121212;
+}
+
+.section-header_white {
+  padding-top: 0;
+  margin-bottom: 34px;
+  font-size: 18px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 h3 {
@@ -75,7 +88,7 @@ h3 {
 
 .introduction__image {
   position: relative;
-  background: url(img_1.png);
+  background: url(img-armcair.png);
   width: 1150px;
   height: 500px;
 }
@@ -111,7 +124,6 @@ h3 {
   width: 256px;
   height: 67px;
   margin-top: 25px;
-
   padding: 20px 40px;
   font-size: 20px;
   line-height: 27px;
@@ -172,20 +184,7 @@ h3 {
   background-color: #ad1818;
 }
 
-.h2_white {
-  padding-top: 0;
-  margin-bottom: 34px;
-  font-size: 18px;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.services {
+.service {
   width: 100%;
   margin: 0 auto;
   padding-top: 152px;
@@ -193,7 +192,7 @@ h3 {
   background-color: #121212;
 }
 
-.services__wrapper_black {
+.service__wrapper_black {
   width: 1400px;
   margin: 0 auto;
   padding: 0 125px;
@@ -201,21 +200,21 @@ h3 {
   background-color: #121212;
 }
 
-.services__items {
+.service__item {
   margin-bottom: 58px;
 }
 
-.services__items_margin {
+.service__item_margin {
   margin-bottom: 0;
 }
 
-.services__img {
+.service__img {
   margin-bottom: 15px;
   width: 1150px;
   height: 270px;
 }
 
-.services__text {
+.service__text {
   font-size: 30px;
   font-family: Manrope;
   font-style: normal;
@@ -234,7 +233,7 @@ h3 {
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0.4) 82.81%
     ),
-    url(img_9.png);
+    url(img-bedroom.png);
   position: relative;
   background-size: cover;
   background-position: 50%;
